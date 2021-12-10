@@ -1,0 +1,526 @@
+.topmenu{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: -10px;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10;
+}
+
+#container {
+    width: 60%;
+    height: 140px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.logo{
+    height: 62px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+}
+
+.logo img{
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.back{
+    position: relative;
+    height: 480px;
+    margin: 76px auto 0;
+}
+
+
+.mainleft{
+    height: 62px;
+    margin-top: -62px;
+    padding-left: 1px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 107px;
+    height: 62px;
+}
+
+.mainbar .menu a{
+    display: block;
+    padding: 23px 23px 21px;
+    font: 16px ;
+    color: black;
+    text-decoration: none;
+}
+
+.mainbar .mainleft .menu1{
+    width: 100px;
+    height: 20px;
+    margin: 1px 11px 0 0;
+    background-color: #17191d;
+    transition: all .15s linear;
+}
+
+.mainbar .menu1{
+    
+    display: inline-block;
+    zoom: 1;
+    background:transparent url(set_gnb.png) ;
+}
+
+.mainbar .menu1 span{
+    margin-left: 25px;
+}
+
+.mainbar .mainright{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 62px;
+    padding-right: 11px;
+    text-align: right;
+}
+
+.mainbar .mainright .user a{
+    display: block;
+    height: 62px;
+    *height: 43px;
+    padding: 24px 3px 0;
+    *padding: 21px 3px 0;
+    color: #17191d;
+    font: 14px NEXON Gothic;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.mainbar .mainright .user a:hover{
+    color: blue;
+}
+
+.mainbar .mainright .login a{
+    padding: 7px 18px 2px;
+    color: #080410;
+    text-align: center;
+    font: 15px Bold;
+    border-radius: 20px;
+    border: 2px solid #17191d;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.user{
+    margin-right: 100px;
+    font-weight:bold;
+}
+
+.login{
+    margin-top: -60px;   
+}
+
+.login:hover>a{
+    background-color: silver;
+    color: black;
+}
+
+*{margin:0;padding:0;}
+        ul,a{list-style:none;}
+        .slide{height:450px;overflow:hidden;}
+        .slide ul{width:calc(100% * 4);display:flex;animation:slide 6s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+        .slide a{width:calc(100% / 4);height:450px;}
+        .slide a:nth-child(1){background:#afa;}
+        .slide a:nth-child(2){background:#aaf;}
+        .slide a:nth-child(3){background:#afa;}
+        .slide a:nth-child(4){background:#aaf;}
+        @keyframes slide {
+          0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+          20% {margin-left:0;} /* 10 ~ 25 : 변이 */
+          40% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+          60% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+          80% {margin-left:-200%;}
+          100% {margin-left:-200%;}
+          100% {margin-left:0;}
+        }
+
+.back{
+    position: relative;
+    width: 1280px;
+    height: 496px;
+    margin: 70px auto 0;
+}
+
+.mid1{
+    clear: both;
+    height: 28px;
+}
+
+.mid1 h2{
+    display: inline-block;
+    height: 28px;
+    color: #17191d;
+    font: 24px;
+   
+}
+
+.b1{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    
+}
+
+.b1 a{
+    margin-left: 15px;
+    text-decoration:none;
+    color:black;
+}
+
+.b1 a:hover{
+    color: blue;
+}
+
+.mid2{
+    float: left;
+    width: 805px;
+    height: 342px;
+    margin-top: 30px;
+}
+
+.mid2 ul{
+    width: 805px;
+    height: 320px;
+}
+
+.mid2 ul li{
+    width: 153px;
+    height: 342px;
+    float: left;
+    margin-right: 8px;
+    background-color: #e2e3e4;
+}
+
+.mid2 ul p{
+    width: 153px;
+    height: 342px;
+    float: left;
+    margin-right: 8px;
+    background-color: #e2e3e4;
+}
+
+.mid2 p img{
+    width: 153px;
+    height: 342px;
+}
+
+.mid2 img{
+    width: 153px;
+    height: 192px;
+}
+
+.mid3{
+    float: left;
+    width: 465px;
+    height: 342px;
+    margin: 30px 0 0 10px;
+    background-color:silver;
+}
+
+.main{
+    width: 355px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+.main a{
+    text-decoration:none;
+    color:white;
+}
+
+.main a h2{
+    padding-top: 12px;
+}
+
+.main:hover{
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+} 
+
+.sup{
+    width: 400px;
+    height: 52px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.sup a{
+    width: 176px;
+    height: 52px;
+    margin-right: 3px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    background-color: #4a4e57;
+    text-decoration:none;
+}
+
+.sup a:hover{
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.sup a p{
+    margin-top: 15px;
+}
+
+.tma{
+    width: 355px;
+    height: 42px;
+    margin-top: 8px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.tma p{
+    width: 130px;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-left: 35px;
+    margin-right: 15px;
+    color: #9fa1a7;
+    
+}
+
+.find{
+    width: 200px;
+    padding-top: 14px;
+    font-size: 13px;
+    letter-spacing: -.3px;
+    margin-left: 50px;
+}
+
+.find a{
+    text-decoration:none;
+    color: rgb(65, 65, 65);
+}
+
+.find a:hover{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.join{
+    position: relative;
+    width: 100px;
+    float: right;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.join a{
+    text-decoration:none;
+    color: rgb(65, 65, 65);
+}
+
+.join a:hover{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.newgame{
+    clear: both;
+    width: 1328px;
+    height: 350px;
+    padding-left: 24px;
+    margin: 0 auto;
+}
+
+.newgame h2{
+    font-size: 24px;
+}
+
+.newgame ul{
+    padding-top: 42px;
+}
+
+.newgame li{
+    float: left;
+    display: block;
+    width: 302px;
+    height: 146px;
+    margin: 0 24px 52px 0;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-top: 2px solid #07f;
+}
+
+.game{
+    height: 146px;
+    width: 302px;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.game a{
+    text-decoration:none;
+}
+
+.game:hover{
+    background-color: rgb(128, 128, 255);
+    background: linear-gradient( 60deg, rgb(2, 99, 255),white );
+}
+
+.game:hover h3{
+    background-color:rgb(2, 99, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.game:hover h1{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.game:hover p{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.game:hover h3{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.game h1{
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 13px;
+    color: black;
+}
+
+.game P{
+    padding-left: 45px;
+    font-size: 13px;
+    margin-left: 5px;
+    text-decoration:none;
+    color: rgb(119, 119, 119);
+}
+
+.game img{
+    width: 140px;
+    height: 180px;
+    float: right;
+    margin-top: -35px;
+}
+
+.sname{
+    height: 17px;
+    max-width: 90%;
+    float: left;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: -.3px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.sname h3{
+    font-size: 13px;
+    background-color: #fff;
+    padding-right: 20px;
+    color: gray;
+}
+
+.allgame{
+    clear: both;
+    position: relative;
+    width: 1328px;
+    height: 1000px;
+    padding-left: 24px;
+    margin: 0 auto;
+}
+
+.fill{
+    position: relative;
+    padding: 20px 30px 3px;
+    margin: 29px 24px 20px 0;
+    background-color: silver;
+    padding-bottom: 30px;
+}
+
+.fill ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.fill ul li a{
+    text-decoration:none;
+    color: rgb(104, 103, 103);
+    
+}
+
+.fill ul li a:hover{
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.fill a:checked{
+    color: #fff;
+    border: 1px solid #17191d;
+    background-color: #17191d;
+}
+
+.PCGAME a:hover{    
+    color: blue;
+}
+
+.allgame h3 a{
+    margin-left: 22px;
+    color: #c7c8cc;
+    text-decoration:none;
+}
+
+.allGame h3 {
+    height: 78px;
+    padding-top: 40px;
+    color: #4a4e57;
+    font: 20px Bold;
+}
+
+.card{
+    padding: 15px 0 40px;
+} 
+
+.card li{
+    width: 302px;
+    height: 320px;
+    margin: 0 24px 60px 0;
+    float: left;
+    background-color: silver;
+}
+
+.gamename{
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration:none;
+}
+
+.gamename h3{
+    text-decoration:none;
+    color: black;
+}
+
+.gamename p{
+    text-decoration:none;
+    color: black;  
+}
