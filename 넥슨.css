@@ -93,7 +93,7 @@
     padding: 24px 3px 0;
     *padding: 21px 3px 0;
     color: #17191d;
-    font: 14px NEXON Gothic;
+    font: 14px;
     text-decoration: none;
     font-weight:bold;
 }
@@ -137,10 +137,10 @@
         .slide a:nth-child(3){background:#afa;}
         .slide a:nth-child(4){background:#aaf;}
         @keyframes slide {
-          0% {margin-left:0;} /* 0 ~ 10  : 정지 */
-          20% {margin-left:0;} /* 10 ~ 25 : 변이 */
-          40% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
-          60% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+          0% {margin-left:0;} 
+          20% {margin-left:0;} 
+          40% {margin-left:-100%;}
+          60% {margin-left:-100%;} 
           80% {margin-left:-200%;}
           100% {margin-left:-200%;}
           100% {margin-left:0;}
@@ -469,13 +469,40 @@
     
 }
 
+.fill input[type=radio] {
+    display: none;
+}
+
+
 .fill ul li a:hover{
     color: blue;
     transition: all 0.3s ease-in-out;
 }
 
-.fill a:checked{
+.fill input[type=radio]+label {
+    display: block;
+    height: 21px;
+    padding: 1px 10px 0;
+    color: #9fa1a7;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+    margin-right: 8px;
+}
+
+#wrapper label {
+    transition: all .15s linear,bottom 0s;
+}
+
+
+
+.fill ul input[type=radio]:checked+label{
     color: #fff;
+    display: block;
     border: 1px solid #17191d;
     background-color: #17191d;
 }
