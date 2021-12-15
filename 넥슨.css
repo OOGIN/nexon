@@ -1,3 +1,7 @@
+body{
+    background-color: whitesmoke;
+}
+
 .topmenu{
     margin: 0;
     width: 100%;
@@ -123,7 +127,7 @@
 }
 
 .login:hover>a{
-    background-color: silver;
+    background-color: white;
     color: black;
 }
 
@@ -200,7 +204,7 @@
     height: 342px;
     float: left;
     margin-right: 8px;
-    background-color: #e2e3e4;
+    background-color: white;
 }
 
 .mid2 ul p{
@@ -208,7 +212,7 @@
     height: 342px;
     float: left;
     margin-right: 8px;
-    background-color: #e2e3e4;
+    background-color: white;
 }
 
 .mid2 p img{
@@ -226,7 +230,7 @@
     width: 465px;
     height: 342px;
     margin: 30px 0 0 10px;
-    background-color:silver;
+    background-color:white;
 }
 
 .main{
@@ -287,7 +291,7 @@
     margin-top: 8px;
     margin-left: 50px;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: white;
 }
 
 .tma p{
@@ -297,7 +301,14 @@
     padding-left: 35px;
     margin-right: 15px;
     color: #9fa1a7;
-    
+}
+
+.tma img{
+    width: 120px;
+    height: 25px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
 }
 
 .find{
@@ -454,34 +465,44 @@
     position: relative;
     padding: 20px 30px 3px;
     margin: 29px 24px 20px 0;
-    background-color: silver;
+    background-color: rgb(219, 219, 219);
     padding-bottom: 30px;
     
 }
 
-.fill ul li{
+.fill ul li a{
     float: left;
     margin-right: 20px;
-    background-color: indigo;
     border:4px;
     border-radius: 13px;
     padding-right:5px;
     padding-left: 5px;
 }
 
-.fill .list{
+.fill .list a{
     margin-right: 20px;
     margin-top: -3px;
-    color: honeydew;
+    color: #9FA1A7;
+    text-decoration:none;
 }
 
-.list:hover{
+.list a:hover{
     color: blue;
     transition: all 0.3s;
 }
 
+.fill .list a:focus{
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
 .PCGAME a:hover{    
     color: blue;
+}
+
+.PCGAME a:focus{    
+    color: black;
 }
 
 .allgame h3 a{
@@ -506,23 +527,42 @@
     height: 320px;
     margin: 0 24px 60px 0;
     float: left;
-    background-color: silver;
+    background-color: white;
 }
 
 .gamename{
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 10px;
     text-decoration:none;
 }
 
+.card li a{
+    text-decoration-line:none;
+}
+
 .gamename h3{
-    text-decoration:none;
     color: black;
 }
 
 .gamename p{
-    text-decoration:none;
     color: black;  
+}
+
+.g1{
+    font-size: 12px;
+}
+
+.KT{
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 90%;
+    border-top: 2px solid whitesmoke;
+}
+
+.KT p{
+    margin-top: -25px;
+    margin-left: 30px;
+    font-size: 13px;
 }
 
 .finish{
