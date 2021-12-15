@@ -456,55 +456,28 @@
     margin: 29px 24px 20px 0;
     background-color: silver;
     padding-bottom: 30px;
+    
 }
 
 .fill ul li{
     float: left;
     margin-right: 20px;
+    background-color: indigo;
+    border:4px;
+    border-radius: 13px;
+    padding-right:5px;
+    padding-left: 5px;
 }
 
-.fill ul li a{
-    text-decoration:none;
-    color: rgb(104, 103, 103);
-    
+.fill .list{
+    margin-right: 20px;
+    margin-top: -3px;
+    color: honeydew;
 }
 
-.fill input[type=radio] {
-    display: none;
-}
-
-
-.fill ul li a:hover{
+.list:hover{
     color: blue;
-    transition: all 0.3s ease-in-out;
-}
-
-.fill input[type=radio]+label {
-    display: block;
-    height: 21px;
-    padding: 1px 10px 0;
-    color: #9fa1a7;
-    letter-spacing: -.3px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 1px solid #fff;
-    background-color: #fff;
-    cursor: pointer;
-    float: left;
-    margin-right: 8px;
-}
-
-#wrapper label {
-    transition: all .15s linear,bottom 0s;
-}
-
-
-
-.fill ul input[type=radio]:checked+label{
-    color: #fff;
-    display: block;
-    border: 1px solid #17191d;
-    background-color: #17191d;
+    transition: all 0.3s;
 }
 
 .PCGAME a:hover{    
@@ -550,4 +523,120 @@
 .gamename p{
     text-decoration:none;
     color: black;  
+}
+
+.finish{
+    width: 100%;
+    height: 317px;
+}
+
+.note1{
+    width: 100%;
+    height: 75px;
+    border-bottom: 2px solid  rgb(207, 207, 207);
+    background-color: #222426;
+}
+
+.note1 a{
+    color: white;
+    text-decoration-line: none;  
+    float: left;
+    font-weight: bold;
+    margin-top: 23px;
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.note1 a:hover{
+    text-decoration-line: "";
+}
+
+.note1 img{
+    float: right;
+    padding-top: 15px;
+}
+
+.note2{
+    width: 100%;
+    height: 45px;
+    color: rgb(105, 104, 104);
+    background-color: #222426;
+}
+
+.note2 li{
+    margin-left: 35px;
+}
+
+.note2 li a{
+    font-size: 13px;
+    float: left;
+    font-weight: bold;
+    padding: 20px 5px 0px;
+    text-decoration-line: none;
+    color: #c2c2c2;
+}
+
+.lan{
+    width: 140px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-color: #393a3c;
+    float: right;
+}
+
+.note2 a .lan{
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: -5px;
+    letter-spacing: -.3px;
+    color: rgba(248,249,250,.8);
+    text-decoration-line: none;
+}
+
+.note3{
+    width: 100%;
+    height: 45px;
+    background-color: #222426;
+}
+
+.note3 li{
+    margin-left: 35px;
+}
+
+.note3 li a{
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    padding: 10px 5px 0px;
+    text-decoration-line: none;
+    color: #c2c2c2;
+}
+
+.add{
+    width: 100%;
+    height: 60px;
+    font-size: 11px;
+    color: rgba(248,249,250,.3);
+    background-color: #222426;
+}
+
+.ad1{
+    margin-left: 35px;
+}
+
+.ad1 span{
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.ad1 a{
+    color: rgba(248,249,250,.3);
+}
+
+.logo2{
+    width: 100%;
+    height: 83px;
+    padding: 21px 0 0 39px;
+    background-color: #222426;
 }
