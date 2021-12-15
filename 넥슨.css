@@ -134,7 +134,7 @@ body{
 *{margin:0;padding:0;}
         ul,a{list-style:none;}
         .slide{height:450px;overflow:hidden;}
-        .slide ul{width:calc(100% * 4);display:flex;animation:slide 6s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+        .slide ul{width:calc(100% * 4);display:flex;animation:slide 10s infinite;}
         .slide a{width:calc(100% / 4);height:450px;}
         .slide a:nth-child(1){background:#afa;}
         .slide a:nth-child(2){background:#aaf;}
