@@ -389,45 +389,86 @@ body{
 
 .game:hover{
     background-color: rgb(128, 128, 255);
-    background: linear-gradient( 60deg, rgb(2, 99, 255),white );
+    background: linear-gradient( 60deg, #0077ff,white );
 }
 
 .game:hover h3{
-    background-color:rgb(2, 99, 255);
-    transition: all 0.3s ease-in-out;
+    background-color:#0077ff;
+    background: linear-gradient( 60deg, #0077ff);
+    transition: all 0.4s ease-in-out;
 }
 
 .game:hover h1{
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .game:hover p{
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .game:hover h3{
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
-.game h1{
+.game .h4{
     font-size: 16px;
-    padding-top: 50px;
+    margin-top: 50px;
     padding-left: 13px;
     color: black;
 }
 
-.game P{
-    padding-left: 45px;
-    font-size: 13px;
+.game .h5{
+    font-size: 16px;
+    margin-top: 6px;
+    padding-left: 13px;
+    color: black;
+}
+
+.gs{
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 12px;
+}
+
+.gs1{
+    padding: 1px 5px 0;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #07f;
+    color: white;
+}
+
+.game:hover .gs1{
+    background-color: white;
+    color: #0077ff;
+    transition: 0.4s;
+}
+
+.ic{
+    margin-left: 15px;
+}
+
+.ic2{
     margin-left: 5px;
+}
+
+.ic3{
+    margin-left: -10px;
+}
+
+.game P{
+    margin-top: -25px;
+    font-size: 13px;
+    margin-left: 45px;
     text-decoration:none;
     color: rgb(119, 119, 119);
 }
 
-.game img{
+.game .im{
     width: 140px;
     height: 180px;
     float: right;
@@ -461,10 +502,41 @@ body{
     margin: 0 auto;
 }
 
+.sl button img{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.allgame h2{
+    width: 100%;
+}
+
+.sl{
+    float: right;
+    margin-top: -20px;
+    margin-right: 40px;
+    width: 305px;
+    height: 45px;
+}
+
+.sl input{
+    width: 230px;
+    height: 50px;
+    letter-spacing: -.3px;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+    float:inline-start;
+    border-bottom: 1px solid #dde1e5;
+    transition: all .15s linear;
+    background-color: transparent;
+}
+
 .fill{
     position: relative;
     padding: 20px 30px 3px;
     margin: 29px 24px 20px 0;
+    margin-top: 70px;
     background-color: rgb(219, 219, 219);
     padding-bottom: 30px;
     
@@ -487,7 +559,7 @@ body{
 }
 
 .list a:hover{
-    color: blue;
+    color: #0077ff;
     transition: all 0.3s;
 }
 
@@ -497,11 +569,11 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-.PCGAME a:hover{    
+.PCGAME .chang:hover{    
     color: blue;
 }
 
-.PCGAME a:focus{    
+.PCGAME .just{    
     color: black;
 }
 
@@ -593,7 +665,15 @@ body{
 
 .note1 img{
     float: right;
-    padding-top: 15px;
+    margin-top: 15px;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor:pointer
+}
+
+.note1 img:hover{
+    background-color: #0077ff;
+    transition: 0.3s;
 }
 
 .note2{
@@ -623,6 +703,27 @@ body{
     margin-right: 25px;
     background-color: #393a3c;
     float: right;
+}
+
+.lan span{
+    margin-left: 10px;
+}
+
+.lan img{
+    background-color: #fff;
+    margin-left: 115px;
+    margin-top: -100px;
+    margin-bottom: 7px;
+}
+
+.lan:hover img{
+    background-color: #0077ff;
+    transition: 0.2s;
+}
+
+.lan:hover span{
+    color: #0077ff;
+    transition: 0.2s;
 }
 
 .note2 a .lan{
